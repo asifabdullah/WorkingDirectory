@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="store">
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<script type="text/javascript" src="angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<style>
+		.panel_div{
+			padding-top: 2%;
+		}
+
+		</style>
+	</head>
+	<body ng-controller="StoreController as store">
+		<div class="container panel_div">
+			<div class="container-fluid">
+				<div class="row">
+				  <div class="col-md-6 col-md-offset-3">
+				  	<div class="panel panel-default">
+					  <div class="panel-heading">Login</div>
+					  <div class="panel-body">
+					    <form action="#">
+						  <div class="form-group">
+						    <label for="exampleInputEmail1"><div class="glyphicon glyphicon-user"></div>Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">Password</label>
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						  </div>
+						  <button type="submit" class="btn btn-success">Submit</button>
+						  <button type="submit" class="btn btn-danger">Cancel</button>
+						</form>
+					  </div>
+					</div>
+				  </div>				  
+				</div>				
+			</div>
+		</div>		
+	</body>
+</html>
+
+
+
